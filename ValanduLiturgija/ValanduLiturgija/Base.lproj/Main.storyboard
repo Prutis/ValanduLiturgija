@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5NP-dH-mE6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ValanduLiturgija" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" customUserAgent="" translatesAutoresizingMaskIntoConstraints="NO" id="9b8-F5-ZcZ">
+                                <rect key="frame" x="0.0" y="70" width="414" height="757"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO" applicationNameForUserAgent="">
+                                    <dataDetectorTypes key="dataDetectorTypes" none="YES"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" minimumFontSize="8"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LPa-Uf-enf">
+                                <rect key="frame" x="0.0" y="150" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem title="Xmark" image="xmark" catalog="system" id="2kk-UB-Vg2">
+                                        <connections>
+                                            <action selector="Xmarkclicked:" destination="BYZ-38-t0r" id="57w-lc-m9I"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YlH-qN-6eT"/>
+                                    <barButtonItem title="Checkmark" image="checkmark" catalog="system" id="HeD-sn-AOr">
+                                        <connections>
+                                            <action selector="Checkclicked:" destination="BYZ-38-t0r" id="Eqy-if-xUT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <datePicker hidden="YES" contentMode="center" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="U3b-Tt-HdD">
+                                <rect key="frame" x="0.0" y="195" width="414" height="282"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="568005924">
+                                    <!--2019-01-01 03:25:24 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="1167562800">
+                                    <!--2037-12-31 11:00:00 +0000-->
+                                </date>
+                                <locale key="locale" localeIdentifier="lt_LT"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mgt-30-jRR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="FEx-ot-FN1">
+                        <leftBarButtonItems>
+                            <barButtonItem title="menu" image="line.horizontal.3" catalog="system" id="fBW-W6-Vlw">
+                                <color key="tintColor" red="0.99607843137254903" green="0.96862745098039216" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="BYZ-38-t0r" id="TBi-y0-iWx"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="2021.01.01" id="06M-q8-u5g">
+                                <color key="tintColor" red="0.99607843137254903" green="0.96862745098039216" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="datapr:" destination="BYZ-38-t0r" id="1Ex-9D-BmU"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Scroll" image="scroll" catalog="system" id="cq0-Lg-RzI">
+                                <color key="tintColor" red="0.99607843137254903" green="0.96862745098039216" blue="0.90196078431372551" alpha="0.7852937940140845" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="slinktis:" destination="BYZ-38-t0r" id="EGk-7v-SXn"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Naktis" image="moon.circle" catalog="system" id="8Qa-2L-yPI">
+                                <color key="tintColor" red="0.99607843137254903" green="0.96862745098039216" blue="0.90196078431372551" alpha="0.7852937940140845" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="naktis:" destination="BYZ-38-t0r" id="MEr-o3-xrd"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="Check" destination="HeD-sn-AOr" id="AXU-gj-IGU"/>
+                        <outlet property="DPtoolbar" destination="LPa-Uf-enf" id="OcC-Ub-8vo"/>
+                        <outlet property="DataB" destination="06M-q8-u5g" id="lLj-Ui-eb9"/>
+                        <outlet property="Datapicker" destination="U3b-Tt-HdD" id="k0w-6o-daf"/>
+                        <outlet property="Naktis" destination="8Qa-2L-yPI" id="tdl-Za-UuP"/>
+                        <outlet property="webview" destination="9b8-F5-ZcZ" id="HV3-T2-DQ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.71014492753625" y="103.79464285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="40S-Sz-e48">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5NP-dH-mE6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1yx-fo-Wwb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.99607843137254903" green="0.058823529411764705" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="y5j-ka-19N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72Q-N7-2od" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-499" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="moon.circle" catalog="system" width="128" height="121"/>
+        <image name="scroll" catalog="system" width="128" height="116"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

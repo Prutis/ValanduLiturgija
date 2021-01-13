@@ -1,0 +1,419 @@
+ <html>
+                     <head>
+                     <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1,   viewport-fit=cover">
+                     <style>
+                     html, body {
+                     width: 80%;
+                     margin: 0dp;
+                     text-indent: 0px; word-wrap: break-word;
+                      color: rgb(15,15,15); margin:5;padding:5;
+                      a {text-decoration: none;}
+                     }
+                     input[type="radio"]:checked+span { font-weight: bold; }
+                     a { color: #FF0000; }
+                     div {word-wrap: break-word; }
+                     p { text-align:left;
+                     text-indent: 0px; word-wrap: break-word;
+                         }
+ #VM span + br , #RM span + br { content: "";
+   display: block;
+   margin: 0.7em;  }
+ #sv { padding-bottom: 25px; }
+                     .pn {
+                         text-indent: 15pt;
+                         padding:0px;
+                         margin:0px;
+                     }
+                     .pcr {
+                         color: #FF3333;
+                     }
+                     .pcr2 {
+                         color: #FF3333;
+                         text-align: center;
+                     }
+                     .auto-style3 {
+                         text-align: center;
+                     }
+                     .auto-style33 {
+                         padding-left: 3em;
+                     }
+                     .auto-style6 {
+                         text-align: right;
+                     }
+                     .auto-style8 {
+                         color: #FF3333;
+                     }
+                     .auto-style12 {
+                         font-variant: small-caps;
+                     }
+                     .auto-style13 {
+                           color: #FF3333;
+                           font-variant: small-caps;
+                           text-align:left;
+                       }
+                         .auto-style14 {
+                           margin-left: 14.15pt;
+                       }
+                       sup { color: #FF3333; }
+                       a {text-decoration: none;}
+                       .s2 {color: #FFAAAA; text-align: center; font-size:medium;}
+                  .gold .s2 {color: #FF3333; text-align: center; font-size:medium; font-weight: normal; }
+                  .green {  background-color: #437404; font-size:large; text-align:center;  color: #FAFAFA; padding:8; border-radius: 15px; }
+                  .gold {  background-color: #f1be38; font-size:large; text-align:center;  color: #FAFAFA; padding:8; font-weight: bold; border-radius: 15px; }
+                  .red {  background-color: #b62e00; font-size:large; text-align:center;  color: #FAFAFA; padding:8;  border-radius: 15px; }
+                  .rose {  background-color: #dd0450; font-size:large; text-align:center; color:#050505;  padding:8; font-weight: bold; border-radius: 15px; }
+                  .purple {  background-color: #4826a9; font-size:large; text-align:center;  color: #FAFAFA;  padding:8; border-radius: 15px; }
+                      .gold2 { margin-left:20px; margin-right:20px; background-color: #f1be38; font-size:medium; text-align:center;  color: #FAFAFA; padding:6; font-weight: bold; border-radius: 10px; }
+                      .red2 {  margin-left:20px; margin-right:20px; background-color: #b62e00; font-size:medium; text-align:center;  color: #FAFAFA; padding:6;  border-radius: 10px; }
+                      .green2 {  margin-left:20px; margin-right:20px; background-color: #437404; font-size:medium; text-align:center;  color: #FAFAFA; padding:6; border-radius: 10px; }
+                      .purple2 { margin-left:20px; margin-right:20px;  background-color: #4826a9; font-size:medium; text-align:center;  color: #FAFAFA;  padding:6; border-radius: 10px; }
+                     </style>
+                     <script>
+                     var RGD=false;
+                     var marpx=null;
+                     var marpxz=null;
+                     var tamsa=0;
+                     var bcolor='rgb(251,245,225)';
+        function syncScale(scale)
+        { document.getElementsByTagName( "html" )[0].style['font-size'] = scale + '%'; }
+                 function laisvas(lai) {
+                      var ine ="l"+parseInt(lai);
+                       for(i=0;i<4;i++) {
+                          var ind ="l"+i;
+                           if(document.getElementById(ind)!=null) {
+                           clc = document.getElementById(ind).className;
+                           if(clc.slice(-1)!="2") { clc+="2";    document.getElementById(ind).className = clc; }
+                       }
+                       }
+                       clc = document.getElementById(ine).className;
+                       if(clc.slice(-1)=="2") { clc=clc.substring(0,clc.length-1);
+                         document.getElementById(ine).className = clc;
+                         }
+                    try {
+                       Interface.javaMehod(lai);
+                        }
+                    catch(err) {
+                      //alert(lai+err);
+                     // Interface.javaMehod("1");
+                        }
+                    }
+                            function naktis(na) {
+                             if(na==1) {
+                             tamsa=1;
+                             document.getElementsByTagName( "html" )[0].style['background-color']="rgb(15,15,15)";
+                             document.getElementsByTagName( "html" )[0].style['color']="rgb(240,240,240)";
+                               document.getElementsByTagName( "body" )[0].style['background-color']="rgb(15,15,15)";
+                               document.getElementsByTagName( "body" )[0].style['color']="rgb(240,240,240)";
+                             }
+                             if(na==0) {
+                             tamsa=0;
+                               document.getElementsByTagName( "html" )[0].style['background-color']=bcolor;
+                               document.getElementsByTagName( "html" )[0].style['color']="rgb(15,15,15)";
+                               document.getElementsByTagName( "body" )[0].style['background-color']=bcolor;
+                               document.getElementsByTagName( "body" )[0].style['color']="rgb(15,15,15)";
+                               }
+                               }
+                     </script>
+                     </head>
+                     <body>
+ <br<a href="javascript:laisvas('0');" ><p id='l0'class='gold'>KRISTAUS KRIKŠTAS
+ <br><span class="s2" style="text-align: center; font-size:medium;">Šventė</span></p></a><script>var lit_per='isk'; var metur='B'; var sav_diena=0; var GD=false; var CHAT=false; var CHSP=false; var CHFO=false; naktis(0); laisvas('0'); syncScale(100); bcolor='rgb(254,253,248)';</script><p class="auto-style3"><strong>Aušrinė</strong></p><p ><span class="auto-style8">K.&nbsp;</span> Dieve, ateik man padėti.
+ <br /><span class="auto-style8">A.&nbsp;</span> Viešpatie, skubėk manęs gelbėti.</p>
+ <br>Garbė Dievui – Tėvui ir Sūnui, *
+ <br>ir Šventajai Dvasiai.
+ <br>Kaip buvo pradžioje, dabar ir visados, *
+ <br>ir per amžius. Amen. Aleliuja.
+ <br>
+ <br><small><span class="auto-style8">Šis įvadas praleidžiamas, jei prieš Aušrinę atliekama Įžanga.</span></small>
+ <br><p><span style="font-variant:small-caps;color:#FF0000;">Himnas</span></p>  <p class="auto-style14"><span>Tai Jonui priedermė skirta:
+ <br>pasaulio Viešpats dieną šią&nbsp;
+ <br>panirs Jordano vandenin,&nbsp;
+ <br>ir taps srovė nutyrinta.
+ <br>
+ <br>Mergelės įsčių kūdikiui
+ <br>nereikia apsivalymo:&nbsp;
+ <br>krikštu jis nuodėmes žmonių&nbsp;
+ <br>nuplaus, suteiks išganymą.
+ <br>
+ <br>Tars Tėvo balsas: „Štai Sūnus,
+ <br>jis mano mylimiausiasis“;&nbsp;
+ <br>nelyg balandis iš skliautų&nbsp;
+ <br>Dvasia Šventoji leidžiasi.
+ <br>
+ <br>Išganymu Bažnyčiai švies
+ <br>šis vardas slėpiningasis;&nbsp;
+ <br>išlieka Dievas trijuose&nbsp;
+ <br>asmenyse vienintelis.
+ <br>
+ <br>Gyvybe, tiesa, Kristau, tau
+ <br>visa garbė tebus, kurią&nbsp;
+ <br>apreiškia Tėvo iš dangaus&nbsp;
+ <br>ir Dvasios spindesys šviesus. Amen.</span></p><p align="left" class="auto-style13">Psalmodija</p></div><p><span style="color:#FF0000;">1</span><span> </span><span style="color:#FF0000;">prieg. </span><span>Viešpaties balsas virš vandenynų,
+ <br>Dievas didingai griaudžia griaustiniais.</span></p><p><span class="auto-style8">28 (29) psalmė
+ <br>Šlovė Viešpaties žodžiui</span></p>  <p><em>Balsas iš dangaus prabilo: „Šitas yra mano mylimasis Sūnus“ </em>(Mt 3, 17).</p> <sup>1</sup> Garbinkite Viešpatį, jūs, dangiškieji, *
+ <br> teikite Viešpačiui šlovę!  <p class="pre"><sup>2</sup> Garsinkit Viešpaties vardą garbingą, *
+ <br> šlovinkite Viešpatį didžiai šventą! </p> <sup>3</sup> Viešpaties balsas virš vandenynų, – †
+ <br> Dievas didingai griaudžia griaustiniais, *
+ <br> Viešpats viršum vandenynų.  <p class="pre"><sup>4</sup> Galingas Viešpaties balsas, *
+ <br> Viešpaties balsas kupinas didybės.</p> <sup>5</sup> Viešpaties balsas kedrus sulaužo, *
+ <br> Viešpats trupina kedrus Libano.  <p class="pre"><sup>6</sup> Jisai šokdina Libaną lyg veršį, *
+ <br> Hermono kalną kaip buivolą jauną.</p> <sup>7</sup> Viešpaties balsas žaibais žaibuoja. †
+ <br> <sup>8</sup> Viešpaties balsas dykumą supurto. *
+ <br> Viešpats sudrebina Kadešo tyrus.  <p class="pre"><sup>9</sup> Viešpaties balsas ąžuolus gniuždo, †
+ <br> plikai nuplėšia girių drabužį, *
+ <br> „Šlovė!“ – jo Šventykloj visi jam šaukia. </p> <sup>10</sup> Savo soste virš tvano, – *
+ <br> Viešpats amžinai karaliauja.
+ <br>  <p class="pre"><sup>11</sup> Testiprina Viešpats savąją tautą! *
+ <br> Telaimina Viešpats savo tautą ramybe!
+ <br></p><div class="GD">Garbė Dievui.</div><p><span style="color:#FF0000;">1</span><span> </span><span style="color:#FF0000;">prieg. </span><span>Viešpaties balsas virš vandenynų,
+ <br>Dievas didingai griaudžia griaustiniais.</span></p><p><span style="color:#FF0000;">2 prieg. </span><span>Tegarbina tave visa žemė, Viešpatie, ir tedžiūgauja,
+ <br>nes tu kaip visų amžių naujoji šviesa pasirodei. </span></p><p class="auto-style8">65 (66) psalmė
+ <br>Maldos ir padėkos giesmė</p>  <p><em>Psalmė apie Viešpaties prisikėlimą ir tautų atsivertimą</em> (Hesichijus).</p>  <p class="auto-style33"><span class="auto-style8">I</span></p> <sup>1</sup> Šlovinkite Dievą džiaugsmo šūksniais, visos šalys, †
+ <br> <sup>2</sup> giedokite šlovinimo giesmę jo vardui, *
+ <br> teikite jam garbę iškilnią.  <p class="pre"><sup>3</sup> Kartokite Dievui: „Kokie tavo darbai nuostabūs! †
+ <br> Prieš tavo didžiulę galybę *
+ <br> gūžias iš baimės visi tavo priešai!</p> <sup>4</sup> Tegarbina tave visa žemė, †
+ <br> tegieda tau šlovinimo giesmę, *
+ <br> tegarsina šlovinimo giesmė tavo vardą!“  <p class="pre"><sup>5</sup> Ateikite ir pamatykite, ką Dievas padarė, – *
+ <br> savo darbais jis kelia pagarbią baimę.</p> <sup>6</sup> Sausuma jis pavertė jūrą, †
+ <br> per upę perėjo pėsti mūsų protėviai. *
+ <br> Ten mes džiūgavom, juo sužavėti.  <p class="pre"><sup>7</sup> Jis amžinai viešpatauja savo galybe, †
+ <br> tautas jo akys nuolat stebi – *
+ <br> maištautojai tegul netriumfuoja.</p> <sup>8</sup> Tautos, garbinkite mūsų Dievą, *
+ <br> skelbkite garsiai jo šlovę.  <p class="pre"><sup>9</sup> Jis mums gyvenimą padovanojo *
+ <br> ir neleido mūsų kojoms suklupti.</p> <sup>10</sup> Dieve, tu išbandei mus! *
+ <br> Ištyrei mus, kaip ištiriamas ugnimi sidabras;  <p class="pre"><sup>11</sup> mums leidai įpulti į pinkles, *
+ <br> ant pečių uždėjai sunkią naštą.</p> <sup>12</sup> Tu leidai, kad žmonės jotų mums ant sprando, †
+ <br> perėjome per vandenį ir ugnį, – *
+ <br> bet išvedei mus vėl į saugią vietą.
+ <br><div class="GD">Garbė Dievui.</div><p><span style="color:#FF0000;">2 prieg. </span><span>Tegarbina tave visa žemė, Viešpatie, ir tedžiūgauja,
+ <br>nes tu kaip visų amžių naujoji šviesa pasirodei. </span></p><p><span style="color:#FF0000;">3 prieg. </span><span>Pagarbintas Dievas,
+ <br>kuris man gyvenimą padovanojo
+ <br>ir išvedė mane į saugią vietą.</span></p><p class="auto-style33"><span class="auto-style8">II </span> </p> <sup>13</sup> Į tavo Namus aš įžengsiu nešdamas deginamąją auką, *
+ <br> vykdysiu įžadus, tau padarytus, –  <p class="pre"><sup>14</sup> įžadus, kuriuos ištarė mano lūpos *
+ <br> ir patvirtino liežuvis, kai nelaimė užgriuvo.</p> <sup>15</sup> Deginamosioms aukoms peniukšlius tau atnašauju †
+ <br> su avinų degančių dūmais; *
+ <br> aukoju jaučius ir ožius.  <p class="pre"><sup>16</sup> Ateikite ir klausykitės, †
+ <br> visi, pagarbiai bijantieji Dievo, *
+ <br> apsakysiu, ką jis man padarė.</p> <sup>17</sup> Garsiai aš jo šaukiausi, *
+ <br> šlovinimo giesmė buvo man ant liežuvio.  <p class="pre"><sup>18</sup> Jeigu būčiau turėjęs širdyje piktą mintį, *
+ <br> Viešpats nebūtų išgirdęs.</p> <sup>19</sup> Bet Dievas išgirdo, – *
+ <br> jis klausėsi mano maldaujančio balso.
+ <br>  <p class="pre"><sup>20</sup> Pagarbintas Dievas, mano maldos neatstūmęs *
+ <br> ir neatsakęs man savo gerumo.
+ <br></p><div class="GD">Garbė Dievui.</div><p><span style="color:#FF0000;">3 prieg. </span><span>Pagarbintas Dievas,
+ <br>kuris man gyvenimą padovanojo
+ <br>ir išvedė mane į saugią vietą.</span></p><p><span style="color:#FF0000;">K. </span><span>Šitas yra mano mylimasis Sūnus.</span><span style="color:#FF0000;">
+ <br>A. </span><span>Klausykite jo.</span></p><p class="auto-style13">Pirmasis skaitinys</p>  <p><span>Iš pranašo Izaijo knygos &nbsp;&nbsp;&nbsp;</span><span style="color:#FF0000;">Iz 42, 1–9; 49, 1–9</span></p>  <p><span style="font-style:italic;color:#FF0000;">Malonus Viešpaties tarnas, tautų šviesa</span></p>  <p><span style="color:#FF0000;"><sup>42.1</sup> </span><span>„Štai mano tarnas, kurį aš remiu, –
+ <br>mano išrinktasis, kuriuo aš gėriuosi.
+ <br>Apgaubiau jį savo dvasia,
+ <br>kad neštų tautoms teisingumą.</span><span style="color:#FF0000;"><sup>
+ <br>2</sup> </span><span>Ne šauksmu ar pakeltu balsu, –
+ <br>gatvėje nesigirdės jo balso.</span><span style="color:#FF0000;"><sup>
+ <br>3</sup> </span><span>Net palaužtos nendrės nelauš&nbsp;
+ <br>nei blėstančio dagčio negesins.
+ <br>Jis tikrą neš teisingumą.</span><span style="color:#FF0000;"><sup>
+ <br>4</sup> </span><span>Nepails ir nevilčiai nepasiduos,&nbsp;
+ <br>teisingumą kurdamas žemėje.
+ <br>Jo mokymo lauks tolimosios salos.“</span><span style="color:#FF0000;"><sup>
+ <br>5</sup> </span><span>Šitaip kalba Dievas, Viešpats,&nbsp;
+ <br>kuris sukūrė ir išskleidė dangų,&nbsp;
+ <br>patiesė žemę su visais pasėliais,&nbsp;
+ <br>žmonėms joje duoda gyvybę
+ <br>ir dvasią joje gyvenantiems:</span><span style="color:#FF0000;"><sup>
+ <br>6</sup> </span><span>„Aš, Viešpats, pašaukiau tave teisumo pergalei,&nbsp;
+ <br>paėmiau tave už rankos.
+ <br>Aš sukūriau tave ir padariau tave
+ <br>Tautos sandora, Tautų šviesa,</span><span style="color:#FF0000;"><sup>
+ <br>7</sup> </span><span>kad neregių akis atvertum,&nbsp;
+ <br>belaisvius iš kalėjimo išvestum,&nbsp;
+ <br>sėdinčius belangės tamsybėse išvaduotum.</span><span style="color:#FF0000;"><sup>
+ <br>8</sup> </span><span>Aš esu Viešpats, tai mano vardas.
+ <br>Savo garbės kitam neperleisiu
+ <br>nei savo šlovės stabams.</span><span style="color:#FF0000;"><sup>
+ <br>9</sup> </span><span>Štai, kas buvo pranašauta, jau įvyko,&nbsp;
+ <br>dabar skelbiu naujus dalykus, –
+ <br>pirmiau, negu tai atsitiks, skelbiu juos tau.“</span><span style="color:#FF0000;"><sup>
+ <br>49.1</sup> &nbsp;</span><span>Išgirskite mane, salos,&nbsp;
+ <br>atkreipkite dėmesį, tolimosios tautos!
+ <br>Mane Viešpats pašaukė dar negimusį, –
+ <br>dar motinos įsčiose tebesantį,
+ <br>jis ištarė manąjį vardą.</span><span style="color:#FF0000;"><sup>
+ <br>2</sup> &nbsp;</span><span>Jis padarė iš manęs aštrų kalaviją,&nbsp;
+ <br>paslėpė mane savo rankos šešėlyje.
+ <br>Jis padarė mane aštria strėle
+ <br>ir įdėjo į savąją strėlinę.</span><span style="color:#FF0000;"><sup>
+ <br>3</sup> </span><span>„Tu esi mano tarnas, – man pasakė, –
+ <br>Izraeli, per tave savo šlovę apreikšiu!“</span><span style="color:#FF0000;"><sup>
+ <br>4</sup> </span><span>Bet aš pagalvojau: „Veltui aš triūsiau,&nbsp;
+ <br>tuščiai ir be naudos jėgas eikvojau;&nbsp;
+ <br>tačiau mano byla pas Viešpatį,
+ <br>ir mano atlygis manojo Dievo rankoje.</span><span style="color:#FF0000;"><sup>
+ <br>5</sup> </span><span>Dabar tvirtai nusprendė Viešpats,
+ <br>kuris mane savuoju tarnu dar motinos įsčiose padarė,
+ <br>kad aš Jokūbą jam parvesčiau, –
+ <br>Izraelis pas jį būtų surinktas.
+ <br>Aš esu pagerbtas Viešpaties akyse,
+ <br>mano Dievas – manoji jėga!“</span><span style="color:#FF0000;"><sup>
+ <br>6</sup> </span><span>„Per maža, – sako jis, – tau būti mano tarnu,&nbsp;
+ <br>prikelti Jokūbo gimines
+ <br>ir sugrąžinti Izraelio likučius.
+ <br>Aš padarysiu tave taip pat ir tautų šviesa,
+ <br>kad mano išganymas pasiektų žemės pakraščius.“</span><span style="color:#FF0000;"><sup>
+ <br>7</sup> </span><span>Taip kalba Viešpats,
+ <br>Izraelio Atpirkėjas, jo Šventasis, paniekintajam,
+ <br>tam, kuriuo bjaurisi tautos,&nbsp;
+ <br>valdovų tarnui:
+ <br>„Karaliai atsistos, kai tave pamatys,
+ <br>didžiūnai, ir tie lenksis tau iki žemės&nbsp;
+ <br>dėl Viešpaties, kuris yra ištikimas,&nbsp;
+ <br>dėl Izraelio Šventojo, kuris tave išrinko.“</span><span style="color:#FF0000;"><sup>
+ <br>8</sup> </span><span>Taip kalba Viešpats: „Malonės metu tave išklausau,&nbsp;
+ <br>išganymo dieną tau padedu.
+ <br>Sukūriau tave, paskyriau tave sandora tautai,
+ <br>kad atstatytum kraštą&nbsp;
+ <br>ir išdalytum nuniokotus paveldus.</span><span style="color:#FF0000;"><sup>
+ <br>9</sup> </span><span>Sakyk kaliniams: „Išeikite!“
+ <br>ir tiems, kurie tamsybėse: „Eikite į šviesą!“
+ <br>Pakelėse jie ganysis,
+ <br>ant plikų kalvų visur jie ras ganyklų.“</span></p><p><span class="auto-style13">Atliepas</span> &nbsp;&nbsp;&nbsp;<span class="auto-style8">Plg. Mt 3, 16. 17; Lk 3, 22</span></p>  <p><span style="color:#FF0000;">K. </span><span>Šiandien Jordane, pasikrikštijus Viešpačiui, atsivėrė dangus, Dvasia nusileido ant jo tarsi balandis. O Tėvo balsas prabilo:
+ <br> </span><span style="color:#FF0000;">A. </span><span>„Šitas yra mano mylimasis Sūnus, kuriuo aš gėriuosi.“</span><span style="color:#FF0000;">
+ <br>K. </span><span>Šventoji Dvasia kūnišku pavidalu nusileido ant jo tarsi balandis, o balsas iš dangaus prabilo: </span><span style="color:#FF0000;">
+ <br>A. </span><span>„Šitas yra mano mylimasis Sūnus, kuriuo aš gėriuosi.“</span></p><p class="auto-style13">Antrasis skaitinys</p>  <p><span>Iš šventojo vyskupo Grigaliaus Nazianziečio </span><span style="font-style:italic;">Pamokslų</span><span style="color:#FF0000;">
+ <br>(Oratio 39 in sancta Lumina, 14–16. 20: PG 36, 350–351. 354. 358–359)</span></p>  <p><span style="font-style:italic;color:#FF0000;">Kristaus krikštas</span></p>  <p class="pn"><span>Apšviečiamas Kristus, tad nušviskime ir mes; krikštijamas Kristus, tad ženkime kartu su juo į vandenį, kad kartu ir išbristume.</span></p>  <p class="pn"><span>Jonui Krikštytojui krikštijant žmones, prisiartina Jėzus, matyt, norėdamas pašventinti savo krikštytoją; kaip žinoma, – kad vandenin nugramzdintų senąjį Adomą, pirma mūsų ir dėl mūsų pašventintų Jordano upę, kad pats,&nbsp;būdamas dvasia ir kūnas, mus pašventintų Dvasia ir vandeniu.</span></p>  <p class="pn"><span>Krikštytojas nesutinka, Jėzus prieštarauja. </span><span style="font-style:italic;">Tai aš turėčiau būti tavo pakrikštytas,</span><span> sako žiburys Saulei, balsas – Žodžiui, didžiausias tarp gimusių iš moterų – visos kūrinijos Pirmgimiui; tas, kuris šoktelėjo motinos įsčiose, – tam, kuris įsčiose buvo pagarbintas; esamas ir būsimasis pirmtakas – tam, kuris pasirodė ir dar pasirodys. </span><span style="font-style:italic;">Tai aš turėčiau būti tavo pakrikštytas,</span><span> ir, reikėtų pridurti, dėl tavęs. Mat žinojo, jog būtų buvęs pakrikštytas kankinystei;&nbsp;arba būtų nuskaistintas kaip Petras, kuriam buvo nuplautos ne tik kojos.</span></p>  <p class="pn"><span> Ir štai Jėzus išbrenda iš vandens, keldamas į aukštybes pasaulį, ir regi plyštant bei prasiveriant dangų, kurį Adomas sau bei savo palikuonims buvo uždaręs, kaip ir Edeno sodą, saugomą liepsna švytruojančio kalavijo.</span></p>  <p class="pn"><span> Štai ant jo nusileidžianti Dvasia patvirtina jo dievystę, pati būdama jam lygi; iš aukštybių pasigirsta balsas, jog iš čia jis yra kilęs. Sklęsdama tarsi balandis regimu pavidalu, Dvasia suteikia garbę jo kūnui, įgavusiam&nbsp;dieviškumo, taigi Dievui. Panašiai prieš daugybę amžių balandis paskelbė potvynio pabaigą.</span></p>  <p class="pn"><span> Tad šiandien pagerbkim Kristaus krikštą ir tinkamai švęskime šią šventę.</span></p>  <p class="pn"><span> Būkite visiškai nuskaistinti ir tapkite dar skaistesni. Niekas Dievo taip nedžiugina, kaip žmogaus, apie kurį kalba šiuos slėpinius aiškinantis pamokslas, praregėjimas ir išgijimas. Tapkime pasaulio žiburiais, teikiančiais&nbsp;gyvybės galią visiems žmonėms. Persmelkti dangiškosios šviesos spinduliais, tapkime tobulais šviesuliais,&nbsp;gaunančiais šviesą iš didžiojo šviesulio. Kuo vaiskiau ir skaisčiau jus teapšviečia Švenčiausioji Trejybė, iš kurios – iš vieno Dievo – šiandien dar netobulai gavote vieną spindulį, per mūsų Viešpatį Kristų Jėzų, kurio garbė ir galybė&nbsp;per amžių amžius. Amen.</span></p><p><span class="auto-style13">Atliepas </span>&nbsp;&nbsp;&nbsp;<span class="auto-style8">Ps 113A (114), 5</span></p>  <p><span style="color:#FF0000;">K. </span><span>Šiandien atsivėrė dangus ir jūra tapo gėla, žemė šokinėja iš džiaugsmo, kalnai ir kalvos džiūgauja. </span><span style="color:#FF0000;">
+ <br>A. </span><span>Nes Kristus buvo Jono pakrikštytas Jordane.</span><span style="color:#FF0000;">
+ <br>K. </span><span>Kas gi tau, jūra, ko gi tu bėgi? Jordanai, ko atgal traukies?
+ <br> </span><span style="color:#FF0000;">A. </span><span>Nes Kristus buvo Jono pakrikštytas Jordane. </span></p><p><span class="auto-style13">Himnas </span> Tave, Dieve, garbinam&nbsp;</p> Tave, Dieve, garbinam, * tave, Viešpatie, išpažįstam.
+ <br> Tave, amžinąjį Tėvą, * štai garbina visa žemė.
+ <br> Tau visi angelai, * tau dangūs ir visos galybės,
+ <br> tau cherubinai ir serafinai * nepaliaujamu balsu gieda:
+ <br> Šventas, šventas, šventas * Viešpats, Galybių Dievas!
+ <br> Pilnas yra dangus ir žemė * tavo garbės ir didybės.
+ <br> Tave apaštalų * choras garbingas,
+ <br> tave pranašų * skaičius gausingas,
+ <br> tave spindinčios * kankinių gretos šlovina.
+ <br> Tave po visą pasaulį * šventoji Bažnyčia išpažįsta:
+ <br> Tėvą * begalinės didybės,
+ <br> Garbingą ir tikrą * vienatinį tavo Sūnų,
+ <br> Dvasią Šventąją, * ramybės Davėją.
+ <br>
+ <br> Garbės Karalius tu, Kristau. * Tu Tėvo Sūnus amžinasis.
+ <br> Tu, ateidamas žmonių išvaduoti, *
+ <br>gimei iš Mergelės Marijos.
+ <br> Tu, mirties galybę sutrynęs, *
+ <br> tikintiesiems Dangaus karalystę atvėrei.
+ <br> Tu sėdi Dievo dešinėje, * Tėvo garbėje.
+ <br> Tikime, kad tu * mūsų teisti ateisi.
+ <br> Todėl tave meldžiam savo žmonėms padėti, *
+ <br> kuriuos brangiu krauju esi atpirkęs.
+ <br> Pakvieski mus * į amžinąją garbę su šventaisiais.
+ <br>
+ <br> <span style="color: #FF0000">*</span> Išgelbėk, Viešpatie, savo žmones *
+ <br> ir laimink savo tėvonystę!
+ <br>Ir valdyki juos, * ir išaukštinki juos amžinybėj.
+ <br> Kiekvieną dieną * mes garbinam tave.
+ <br>Ir šlovinam tavo vardą per amžius *
+ <br> ir per amžių amžius.
+ <br>O Viešpatie, mus šiandieną * be nuodėmės išlaikyki.
+ <br> Pasigailėk mūsų, Viešpatie, * pasigailėk mūsų!
+ <br>Būk mums, Viešpatie, gailestingas, *
+ <br> nes tu vienas esi mūsų viltis.
+ <br>Tavim mes pasitikim, Viešpatie: *
+ <br> nenusivilsim per amžius.
+ <br>
+ <br>  <p style="color: #FF0000"><small>* Šią paskutinę himno dalį galima praleisti.</small></p><p class="auto-style13">Malda</p>  <p>Visagali amžinasis Dieve, tu Jėzų Kristų, šiandien Jordane pasikrikštijusį, Šventajai Dvasiai ant jo nusileidžiant, iškilmingai paskelbei esant tavo mylimąjį Sūnų; padaryk, kad&nbsp;ir mes, tavo įsūnytieji vaikai, iš vandens ir Šventosios Dvasios atgimę, visada tau mieli&nbsp;būtume. Prašome per tąjį mūsų Viešpatį Jėzų Kristų.</p><span class="auto-style8">
+ <br>K. </span>Garbinkime Viešpatį.
+ <br><span class="auto-style8">A. </span>Dėkojame Dievui.
+ <br></body>
+  <script  type="text/javascript">
+           if(tamsa==1) {
+           document.getElementsByTagName( "html" )[0].style['background-color']="rgb(15,15,15)";
+           document.getElementsByTagName( "html" )[0].style['color']="rgb(240,240,240)";
+             document.getElementsByTagName( "body" )[0].style['background-color']="rgb(15,15,15)";
+             document.getElementsByTagName( "body" )[0].style['color']="rgb(240,240,240)";
+           }
+           if(tamsa==0) {
+             document.getElementsByTagName( "html" )[0].style['background-color']=bcolor;
+             document.getElementsByTagName( "html" )[0].style['color']="rgb(15,15,15)";
+             document.getElementsByTagName( "body" )[0].style['background-color']=bcolor;
+             document.getElementsByTagName( "body" )[0].style['color']="rgb(15,15,15)";
+             }
+      var y = document.getElementsByClassName("GD");
+      var i;
+      for (i = 0; i < y.length; i++) {
+         pp =  y[i].previousSibling;
+         tgn=pp.tagName;
+        y[i].innerHTML= '<p>Garbė Dievui.</p>';
+   //     if(pp)  { tgn=pp.tagName; if(tgn=="BR") {papbr="";  y[i].innerHTML= 'Garbė Dievui.';} }
+        if(!GD) {
+         //   if(CHSP || CHAT || CHFO) {
+                 if(tgn=="P") y[i].innerHTML='Garbė Dievui – Tėvui ir Sūnui, *<br>ir Šventajai Dvasiai.<div class="pre">Kaip buvo pradžioje, dabar ir visados, *<br>ir per amžius. Amen.</div>';
+                 else {
+                 y[i].innerHTML= '<div class="pre">Garbė Dievui – Tėvui ir Sūnui, *<br>ir Šventajai Dvasiai.</div>Kaip buvo pradžioje, dabar ir visados, *<br>ir per amžius. Amen.'; }
+         //    }
+        }
+      }
+      if(marpx!=null) {
+      var px = document.getElementsByClassName('MPx');
+       for (var i = 0; i < px.length; i++) {
+         px[i].innerHTML=marpx;
+       }
+      }
+      if(marpxz!=null) {
+           var pxz = document.getElementsByClassName('MPxz');
+            for (var i = 0; i < px.length; i++) {
+              pxz[i].innerHTML=marpxz;
+            }
+           }
+  var all = document.getElementsByClassName('pre');
+  for (var i = 0; i < all.length; i++) {
+      if(CHSP)  { all[i].style.margin = '8pt'; } else { all[i].style.margin = '0';}
+      if(CHAT)  { all[i].style.marginLeft = '12pt'; } else { all[i].style.marginLeft = '0'; }
+      if(CHFO)  { all[i].style.fontWeight = "600"; } else { all[i].style.fontWeight = "normal"; }
+  }
+     if(lit_per == "gav") {
+     var y = document.getElementsByClassName("juopr");
+         var i;
+         for (i = 0; i < y.length; i++) {
+           y[i].innerHTML= "";
+         }
+     }
+     if(lit_per == "vel") {
+         var y = document.getElementsByClassName("juoza");
+             var i;
+             for (i = 0; i < y.length; i++) {
+               y[i].innerHTML= "";
+             }
+     }
+     var vela=", aleliuja";
+             var y = document.getElementsByClassName("vela");
+         if(lit_per=='vel') {
+                     var i;
+                     for (i = 0; i < y.length; i++) {
+                       y[i].innerHTML= vela;
+                     }
+         } else {
+                     var i;
+                     for (i = 0; i < y.length; i++) {
+                       y[i].innerHTML= "";
+                     }
+         }
+       if(document.getElementById("RGD")) { if(RGD) document.getElementById("RGD").style.display = "none"; }
+ function dprp() {
+     checkdprp = document.getElementById("dprpCheck");
+     if (checkdprp.checked == true) document.getElementById("DPRPT").style.display = "block";
+     else document.getElementById("DPRPT").style.display = "none";
+ }
+ function dvip() {
+     checkdvip = document.getElementById("dvipCheck");
+     if (checkdvip.checked == true) document.getElementById("DVIPT").style.display = "block";
+     else document.getElementById("DVIPT").style.display = "none";
+ }
+ function dpap() {
+     checkdpap = document.getElementById("dpapCheck");
+     if (checkdpap.checked == true) document.getElementById("DPAPT").style.display = "block";
+     else document.getElementById("DPAPT").style.display = "none";
+ }
+          </script>
+ </html>
+
