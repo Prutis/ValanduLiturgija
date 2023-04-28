@@ -1,6 +1,0 @@
-framework module Pods_ValanduLiturgija {
-  umbrella header "Pods-ValanduLiturgija-umbrella.h"
-
-  export *
-  module * { export * }
-}
