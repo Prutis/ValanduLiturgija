@@ -1,0 +1,233 @@
+
+ <!-- Ižanga -->
+ <p align="center" class="auto-style3">	<strong>Įžanga</strong>	</p>
+ 		<p><span><span style="color: #FF3333">K.</span>&nbsp;</span>Viešpatie, atverk mano lūpas.<br/>
+ 			<span><span style="color: #FF3333">A.</span>&nbsp;</span>Ir	aš tave šlovinsiu.</p>
+  <span style="color: #FF3333">Galite pasirinkti kitą psalmę:</span><br/>
+ <a style="font-weight:normal; color:red" id="23"  href="javascript:izz('23');"> Ps 23 (24)</a>&nbsp;&nbsp;&nbsp;
+ <a style="font-weight:normal; color:red" id="66"  href="javascript:izz('66');">Ps 66 (67)</a><br/>
+ <a style="font-weight:bold; color:red" id="94" href="javascript:izz('94');">Ps 94 (95)</a>&nbsp;&nbsp;&nbsp;
+ <a style="font-weight:normal; color:red" id="99" href="javascript:izz('99');">Ps 99 (100)</a>
+ <br/><br/>
+ <div id="p23" style="display:none" >
+ <p style="color: #FF3333">	23 (24) psalmė <br>
+ 	Viešpaties įžengimas į Šventyklą</p>
+ <p>
+ 	<em>Dangaus vartai atsivėrė Kristui, kai su kūnu žengė į dangų</em> (šv.
+ 	Ireniejus).<em> </em></p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p><sup>1</sup> Viešpaties yra žemė ir visa, kas ją pripildo, – *<br/>
+ pasaulis ir visa, kas jame gyvena,<br/>
+ <sup>2</sup> nes tai jis ant gilių vandenų jį pastatė *<br/>
+ ir įtvirtino virš požeminių upių.</p>
+ <p class="IR">
+ 	(Priegiesmis)</p>
+ <p>
+ <sup>3</sup> Kas įkops į Viešpaties kalną? *<br/>
+ Kas galės įeiti į šventąją jo buveinę? <br/>
+ <sup>4</sup> Tasai, kurio širdis tyra, o rankos nekaltos, †<br/>
+ kuris nesivaiko tuštybių *<br/>
+ ir artimui kreivai neprisiekia. <br/>
+  </p>
+ <p class="IR">
+     (Priegiesmis)</p>
+ <p>
+ <sup>5</sup> Gaus jisai iš Viešpaties palaimą, *<br/>
+ teisų atlygį iš Dievo, Gelbėtojo savo.<br/>
+ <sup>6</sup> Tokia yra bendrija visų, kurie jo ieško *<br/>
+ ir Jokūbo Dievo veido ilgis.</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ <p><sup>7</sup> Pakelkite savo sąramas, vartai! †<br/>
+ Plačiai atsiverkite, amžinos durys, *<br/>
+ teįžengia Garbės karalius!<br>
+ <sup>8</sup> Kas gi tas Garbės karalius? †<br>Tai Viešpats, narsus ir galingas, *<br>Viešpats, kautynių galiūnas.<br>
+  </p>
+ <p class="IR">
+     (Priegiesmis)</p>
+ <p>
+ <sup>9</sup> Pakelkite savo sąramas, vartai! †<br>
+ Plačiai atsiverkite, amžinos durys, *<br/>
+ teįžengia Garbės karalius!<br>
+ <sup>10</sup> Kas gi tas Garbės karalius? †<br>
+ Tai Galybių Viešpats – *<br>
+ jisai yra Garbės karalius!
+ </p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ <p>Garbė Dievui – Tėvui ir Sūnui, *<br>
+ ir Šventajai Dvasiai.<br>
+ Kaip buvo pradžioje, dabar ir visados, *<br>
+ ir per amžius. Amen.</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ </div>
+ <div id="p66" style="display:none">
+ <p style="color: #FF3333">	66 (67) psalmė <br>
+ 	Visos tautos tešlovina Viešpatį</p>
+ <p>	<em>Žinokite: šis Dievo išgelbėjimas yra pasiųstas pagonių tautoms</em> (Apd
+ 	28, 28).</p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p><sup>2</sup> Tebūna Dievas mums maloningas, mus tepalaimina, *<br/>
+ mums tešviečia jo veidas;<br/>
+ <sup>3</sup> tegu tavo kelią žemė pažįsta; *<br/>
+ o visos tautos – tavo išganymą.</p>
+ <p class="IR">	(Priegiesmis)</p>
+ <p><sup>4</sup> Dieve, tave tegarbina tautos, – *<br/>
+ visos tautos tave tešlovina!<br/>
+ <sup>5</sup> Džiūgaus ir krykštaus žmonės iš džiaugsmo,
+ <span>†</span><br/>
+ nes tu tautas valdai teisingai, – *<br/>
+ žemėje tu vesi žmones.</p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p><sup>6</sup> Dieve, tave tegarbina tautos, – *<br/>
+ visos tautos tave tešlovina!<br/>
+ <sup>7</sup> Teduoda žemė savo derlių; *<br/>
+ telaimina mus Dievas, mūsų Dievas!<br/>
+ <sup>8</sup> Telaimina mus Dievas, *<br/>
+ tebijo pagarbiai jo visa žemė.<br/></p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ <p>Garbė Dievui – Tėvui ir Sūnui, *<br/>
+ ir Šventajai Dvasiai.<br/>
+ Kaip buvo pradžioje, dabar ir visados, *<br/>
+ ir per amžius. Amen.</p>
+ <p  class="IR"> 	(Priegiesmis)</p>
+ </div>
+ <div id="p94" style="display:block">
+ <p style="color: #FF3333">	94 (95) psalmė<br>
+ Kvietimas garbinti Dievą</p>
+ <p><em>Raginkite vieni kitus kasdien, – kol dar tebėra šiandien &nbsp;</em>(Žyd 3,
+ 13)<em>.</em></p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p align="left">
+ 	<sup>1&nbsp;&nbsp;</sup>Ateikite, džiaugsmingai Viešpačiui giedokim, *<br>
+ 	šaukime iš džiaugsmo mūsų išganymo uolai!<br>
+ 	<sup>2&nbsp;&nbsp;</sup><span id="rk"></span>Dėkodami eikime į jo Artumą, *<br>
+ 	džiaugsmingai traukime šlovinimo giesmes!</p>
+ <p class="IR">
+ 	(Priegiesmis)</p>
+ <p align="left">
+ 	<sup>3&nbsp;&nbsp;</sup>Juk Viešpats – didis Dievas, *<br>
+ 	galingas Karalius, visus dievus jisai valdo.<br>
+ 	<sup>4&nbsp;&nbsp;</sup>Jo rankoje visos žemės gelmės; *<br>
+ 	ir kalnų viršūnės jam priklauso.<br>
+ 	<sup>5&nbsp;&nbsp;</sup>Jo yra jūra, – jisai ją sukūrė, *<br>
+ 	ir sausuma padaryta jo rankom.</p>
+ <p class="IR">
+ 	(Priegiesmis)</p>
+ <p>
+ 		<sup>6&nbsp;&nbsp;</sup>Ateikime jo pagarbinti ir pulkime kniūbsti, *<br>
+ 		klaupkimės prieš Viešpatį, mūsų Kūrėją!<br>
+ 	<sup>7&nbsp;&nbsp;</sup>Juk jis – mūsų Dievas, †<br>
+  	   mes – tauta, kurią jisai gano, *<br>
+ 		kaimenė, kurią jis veda.</p>
+ <p class="IR">
+ 	(Priegiesmis)</p>
+ <p>
+ 	 O, kad išgirstumėte šiandien, ką jis byloja: †<br>
+ 	 <sup>8&nbsp;&nbsp;</sup>„Nebūkite kietaširdžiai, kaip prie Meribos, *<br>
+ 	 kaip dykumoje Masos dieną,<br>
+ 	 <sup>9&nbsp;&nbsp;</sup>gundė mane ten jūsų senoliai, – *<br>
+ 	 jie mane bandė, nors buvo matę mano darbus.&nbsp;</p>
+ <p class="IR">
+ 	(Priegiesmis)</p>
+ <p align="left">
+ 	<sup>10&nbsp;</sup>Per keturias dešimtis metų *<br>
+ 	atgrasi toji karta man buvo.<br>
+ 	 Tariau: „Tai žmonės, kurių širdys paklydo, *<br>
+ 	mano kelių jie negerbia.“<br>
+ 	<sup>11&nbsp;</sup>Todėl aš rūsčiai prisiekiau: *<br>
+ 	„Jie neįžengs į mano atilsio kraštą.“</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ <p>Garbė Dievui – Tėvui ir Sūnui, *<br>
+ ir Šventajai Dvasiai.<br>
+ Kaip buvo pradžioje, dabar ir visados, *<br>
+ ir per amžius. Amen.</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ </div>
+ <div id="p99" style="display:none">
+ <p style="color: #FF3333">	99 (100) psalmė    <br>
+ 	Žengiančiųjų į Šventyklą džiaugsmas</p>
+ <p>
+ 	<em>Viešpats liepia atpirktiesiems giedoti pergalės giesmę </em>(šv.
+ 	Atanazas).<em> </em></p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p>
+ <sup>1</sup> Džiaugsmu klegėkite, visos šalys! †<br>
+ <sup>2</sup> Tarnaukite Viešpačiui linksmos, *<br>
+ <span id="rk2"></span> artinkitės prie jo su džiaugsminga giesme.</p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p><sup>3</sup>
+ Atminkite: Viešpats yra Dievas. †<br>Jis mus
+ sukūrė, mes jam priklausom; *<br>mes – jo tauta ir jo kaimenės avys.</p>
+ <p class="IR">	(Paskelbiamas ir pakartojamas priegiesmis)</p>
+ <p><sup>4</sup> Pro vartus dėkodami ženkit *<br/>
+ į jo kiemus su šlovinimo giesme. <br/>
+ Dėkokite jam, šlovinkite jo vardą, †<br>
+ <sup>5</sup> nes geras mūsų Viešpats, amžina jo meilė, *<br>
+ per kartų kartas – jo ištikimybė.</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ <p>Garbė Dievui – Tėvui ir Sūnui, *<br>
+ ir Šventajai Dvasiai.<br>
+ Kaip buvo pradžioje, dabar ir visados, *<br>
+ ir per amžius. Amen.</p>
+ <p  class="IR">
+ 	(Priegiesmis)</p>
+ </div>
+ <script type="text/javascript">
+ function CI(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+ window.onload = function() {
+ var psx=CI('izpalm');
+ // document.getElementById('ttt').innerHTML = psx;
+ if(psx == undefined) psx='94';
+ if(psx!='23' && psx!='66' && psx!='94' && psx!='99') psx='94';
+ izz(psx);
+}
+ function izz(ps) {
+ document.cookie = 'izpalm='+ps+';expires=Tue, 19 Jan 2038 04:14:07 GMT';
+  // document.getElementById('ttt').innerHTML = ps;
+ try {
+ document.getElementById("p23").style.display = "none";
+ document.getElementById("p66").style.display = "none";
+ document.getElementById("p94").style.display = "none";
+ document.getElementById("p99").style.display = "none";
+ document.getElementById("p"+ps).style.display = "block";
+ document.getElementById("23").style.fontWeight = "normal";
+ document.getElementById("66").style.fontWeight = "normal";
+ document.getElementById("94").style.fontWeight = "normal";
+ document.getElementById("99").style.fontWeight = "normal";
+ document.getElementById(+ps).style.fontWeight = "bold";
+   }
+   catch(err) {
+   // alert(err);
+    //  document.getElementById('ip2').innerHTML = err;
+   }
+ }
+
+ </script>
+<script  type="text/javascript">
+  try {
+    var yp = document.getElementsByClassName("IR");
+    var i;
+    for (i = 0; i < yp.length; i++) {
+      yp[i].innerHTML= prieg;
+    }
+      		if(document.getElementsByClassName("rkr")[0]  ) {
+			yp[12].innerHTML= prieg+'<span class="auto-style8">†</span>';
+         			document.getElementById('rk').innerHTML ='<span class="auto-style8">†</span>';
+      			}
+      		if(document.getElementsByClassName("rkr2")[0]) {
+			yp[19].innerHTML= prieg+'<span class="auto-style8">†</span>';
+         			document.getElementById('rk2').innerHTML ='<span class="auto-style8">†</span>';
+      			}
+  }
+  catch(err) {
+   alert(2+err);
+  }
+    </script>
+
+ <!-- Ižanga pabaiga -->

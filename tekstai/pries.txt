@@ -1,0 +1,134 @@
+<html>
+                    <head><meta name="viewport" content="width=device-width, user-scalable=yes,  maximum-scale=1, initial-scale=1,  viewport-fit=cover"/>
+                    <style>
+                    html, body {
+                    width: 90%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-indent: 0px; word-wrap: break-word;
+                     color: rgb(15,15,15);
+                     margin:5;padding:5;
+                     a {text-decoration: none;}
+                    }
+                    input[type="radio"]:checked+span { font-weight: bold; }
+                    a { color: #FF0000; }
+                    div {word-wrap: break-word;}
+                    p { text-align:left;
+                    text-indent: 0px; word-wrap: break-word;
+                        }
+#VM span + br , #RM span + br { content: "";
+  display: block;
+  margin: 0.7em;  }
+#sv { padding-bottom: 25px; font-size: small; }
+                    .pn {
+                    	text-indent: 15pt;
+                    	padding:0px;
+                        margin:0px;
+                    }
+                    .pcr {
+                    	color: #FF3333;
+                    }
+                    .pcr2 {
+                    	color: #FF3333;
+                    	text-align: center;
+                    }
+                    .auto-style3 {
+                    	text-align: center;
+                    }
+                    .auto-style33 {
+                    	padding-left: 3em;
+                    }
+                    .auto-style6 {
+                    	text-align: right;
+                    }
+                    .auto-style8 {
+                    	color: #FF3333;
+                    }
+                    .auto-style12 {
+                    	font-variant: small-caps;
+                    }
+                    .auto-style13 {
+                    	  color: #FF3333;
+                    	  font-variant: small-caps;
+                    	  text-align:left;
+                      }
+                        .auto-style14 {
+                    	  margin-left: 14.15pt;
+                      }
+                      sup { color: #FF3333; }
+                      a {text-decoration: none;}
+                      .s2 {color: #FFAAAA; text-align: center; font-size:medium;}
+                 .gold .s2 {color: #FF3333; text-align: center; font-size:medium; font-weight: normal; }
+             	.green {  background-color: #437404;  text-align:center;  color: #FAFAFA; padding:8; border-radius: 15px; }
+             	.gold {  background-color: #f1be38;  text-align:center;  color: #FAFAFA; padding:8; font-weight: bold; border-radius: 15px; }
+             	.red {  background-color: #b62e00;  text-align:center;  color: #FAFAFA; padding:8;  border-radius: 15px; }
+             	.rose {  background-color: #dd0450;  text-align:center; color:#050505;  padding:8; font-weight: bold; border-radius: 15px; }
+             	.purple {  background-color: #4826a9;  text-align:center;  color: #FAFAFA;  padding:8; border-radius: 15px; }
+                 	.gold2 { margin-left:20px; margin-right:20px; background-color: #f1be38; font-size:medium; text-align:center;  color: #FAFAFA; padding:6; font-weight: bold; border-radius: 10px; }
+                 	.red2 {  margin-left:20px; margin-right:20px; background-color: #b62e00; font-size:medium; text-align:center;  color: #FAFAFA; padding:6;  border-radius: 10px; }
+                 	.green2 {  margin-left:20px; margin-right:20px; background-color: #437404; font-size:medium; text-align:center;  color: #FAFAFA; padding:6; border-radius: 10px; }
+                 	.purple2 { margin-left:20px; margin-right:20px;  background-color: #4826a9; font-size:medium; text-align:center;  color: #FAFAFA;  padding:6; border-radius: 10px; }
+                     #myBtn {
+                    position: fixed;
+                    bottom: 55px;
+                    right: 1px;
+                    z-index: 99;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    color: red;
+                    cursor: pointer;
+                    padding: 10px;}
+                    #totop {
+                    position: fixed;
+                    bottom: 5px;
+                    right: 1px;
+                    z-index: 99;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    color: red;
+                    cursor: pointer;
+                    padding: 10px;}
+                    </style>
+                    
+                    <script type="text/javascript">
+                    
+
+                    var RGD=false;
+                    var lit_per="eil";
+                    var marpx=null;
+                    var marpxz=null;
+                    var tamsa=false;
+                    var bcolor='rgb(251,245,225)';
+                    var hbgColor = "#FCF5E2";
+                    var zoom = 100;
+
+                function laisvas(lai) {
+                     var ine ="l"+parseInt(lai);
+                      for(i=0;i<4;i++) {
+                         var ind ="l"+i;
+                          if(document.getElementById(ind)!=null) {
+                          clc = document.getElementById(ind).className;
+                          if(clc.slice(-1)!="2") { clc+="2";    document.getElementById(ind).className = clc; }
+                      }
+                      }
+                      clc = document.getElementById(ine).className;
+                      if(clc.slice(-1)=="2") { clc=clc.substring(0,clc.length-1);
+                        document.getElementById(ine).className = clc;
+                        }
+                   try {
+                      Interface.javaMehod(lai);
+                       }
+                   catch(err) {
+                     //alert(lai+err);
+                    // Interface.javaMehod("1");
+                       }
+                   }
+                    </script>
+                    </head>
+                    <body>
+<button onclick="Scrolingas()" id="myBtn" title="Slinktis">&#9199;</button>
+<button onclick="ToTop()" id="totop" title="Į viršų" src="totop.png"></button>
+

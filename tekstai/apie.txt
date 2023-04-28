@@ -1,0 +1,15 @@
+<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'><style>
+                    html, body {
+                    width: 90%;</style></head><body>
+<h3 style="text-align: center;"><span style="color: #ff0000;"><strong>Patarimai, apie šią aplikaciją</strong></span></h3>
+<p>Maldose rodoma einamos dienos suformuotos maldos. Norint peržiūrėti kitos dienos maldas - eikite į nustatymų skiltį ir pasirinkite datą.</p>
+<p>Horizontaliai braukant keičiasi valandos</p>
+<p>Pereiti į kitą maldą/tekstą - apačioje meniu punktas "Valandos".</p>
+<p>Teksto raidžių didinimas / mažinimas - ekrane "Nustatymai"</p>
+<p>Slinkimo greitis reguliuojamas ekrane "Nustatymai".</p>
+<p>"Nakties/Dienos" nustatymų ekranai nusistato pagal telefono būseną, maldos - gali būti pakeistas ekrane "Nustatymai".</p>
+<p>Kiti pasirinkimai - Nustatymų puslapyje.</p>
+<p><strong>Valandų liturgijos tekstai</strong> <br />© Lietuvos Vyskupų Konferencija</p>
+<p><strong>Arkivyskupas Lionginas Virbalas SJ</strong><br />projekto dvasinis globėjas, vartotojo interfeiso architektas, tekstų pateikimo algoritmas ir testuotojas</p>
+<p><strong>Rūtenis Pikšrys</strong><br />programuotojas<br />apie pastebėtas klaidas galite pranešti rutenis@gmail.com</p>
+</body>

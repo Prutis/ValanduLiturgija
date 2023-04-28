@@ -1,0 +1,135 @@
+</body>
+ <script  type="text/javascript">
+ var ccc ="position=";
+   var slinktis = false;
+    let scrollHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight );
+    var topas = 2;
+    var speedas = 50;
+    
+    let scrollpos = 0;
+     if(marpx!=null) {
+     var px = document.getElementsByClassName('MPx');
+      for (var i = 0; i < px.length; i++) {
+        px[i].innerHTML=marpx;
+      }
+     }
+     if(marpxz!=null) {
+          var pxz = document.getElementsByClassName('MPxz');
+           for (var i = 0; i < pxz.length; i++) {
+             pxz[i].innerHTML=marpxz;
+           }
+          }
+ 
+    if(lit_per == "gav") {
+    var y = document.getElementsByClassName("juopr");
+        var i;
+        for (i = 0; i < y.length; i++) {
+          y[i].innerHTML= "";
+        }
+    }
+    if(lit_per == "vel") {
+        var y = document.getElementsByClassName("juoza");
+            var i;
+            for (i = 0; i < y.length; i++) {
+              y[i].innerHTML= "";
+            }
+    }
+    var vela=", aleliuja";
+        	var y = document.getElementsByClassName("vela");
+    	if(lit_per == "vel") {
+                    var i;
+                    for (i = 0; i < y.length; i++) {
+                      y[i].innerHTML= vela;
+                    }
+    	} else {
+                    var i;
+                    for (i = 0; i < y.length; i++) {
+                      y[i].innerHTML= "";
+                    }
+    	}
+      if(document.getElementById("RGD")) { if(RGD) document.getElementById("RGD").style.display = "none"; }
+function dprp() {
+	checkdprp = document.getElementById("dprpCheck");
+	if (checkdprp.checked == true) document.getElementById("DPRPT").style.display = "block";
+	else document.getElementById("DPRPT").style.display = "none";
+}
+function antrasch(chsp,chat) {
+ var all = document.getElementsByClassName('pre');
+ for (var i = 0; i < all.length; i++) {
+     if(chsp)  { all[i].style.margin = '8pt'; } else { all[i].style.margin = '0';}
+     if(chat)  { all[i].style.marginLeft = '12pt'; } else { all[i].style.marginLeft = '0'; }
+ }
+}
+function garbed(gdd) {GD = gdd;
+     var y = document.getElementsByClassName("GD");
+     var i;
+     for (i = 0; i < y.length; i++) {
+        pp =  y[i].previousSibling;
+        tgn=pp.tagName;
+       y[i].innerHTML= '<p>Garbė Dievui.</p>';
+       if(GD) {
+                if(tgn=="P") y[i].innerHTML='<br>Garbė Dievui – Tėvui ir Sūnui, *<br>ir Šventajai Dvasiai.<div class="pre">Kaip buvo pradžioje, dabar ir visados, *<br>ir per amžius. Amen.</div>';
+                else {
+                y[i].innerHTML= '<div class="pre"><br>Garbė Dievui – Tėvui ir Sūnui, *<br>ir Šventajai Dvasiai.</div>Kaip buvo pradžioje, dabar ir visados, *<br>ir per amžius. Amen.'; }
+       }
+     }
+     }
+function dvip() {
+	checkdvip = document.getElementById("dvipCheck");
+	if (checkdvip.checked == true) document.getElementById("DVIPT").style.display = "block";
+	else document.getElementById("DVIPT").style.display = "none";
+}
+function dpap() {
+	checkdpap = document.getElementById("dpapCheck");
+	if (checkdpap.checked == true) document.getElementById("DPAPT").style.display = "block";
+	else document.getElementById("DPAPT").style.display = "none";
+}
+function Naktis() {
+    tamsa = !tamsa;
+    if(tamsa) {
+            document.getElementById("myNak").innerHTML = "&#9788;";
+                document.getElementsByTagName( 'body' )[0].style['color']='rgb(240,240,240)';
+                document.getElementsByTagName( 'body' )[0].style['background-color']='rgb(15,15,15)';
+    } else {
+            document.getElementById("myNak").innerHTML = "&#9789;";
+            document.getElementsByTagName( 'body' )[0].style['color']='rgb(15,15,15)';
+            document.getElementsByTagName( 'body' )[0].style['background-color']=hbgColor;
+    }
+}
+function FontPl(){
+    zoom +=10;
+    if(zoom>200) zoom=200;
+       document.getElementsByTagName( 'body' )[0].style['font-size'] =  zoom.toString()+'%';
+}
+function FontMi(){
+    zoom -=10;
+    if(zoom<50) zoom=50;
+       document.getElementsByTagName( 'body' )[0].style['font-size'] =  zoom.toString()+'%';
+}
+
+function Scrolingas() {
+  scrollHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight );
+ scrollpos = window.pageYOffset;
+slinktis = !slinktis;
+if(slinktis) {        document.getElementById("myBtn").innerHTML = "&#9208;";        scroll();    } else {    document.getElementById("myBtn").innerHTML = "&#9199;"; }}
+var scrto = 0;
+function ToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function scroll() {
+        if((scrollpos+zoom/5)<(scrollHeight-window.innerHeight) && slinktis) { setTimeout(() => {
+                scrollpos = window.pageYOffset;
+                scrto = scrollpos+ topas;
+        window.scrollTo({ top: scrto , behavior: 'smooth' }); scroll();  }, speedas);
+} else {
+if((scrollpos+zoom/3)>(scrollHeight-window.innerHeight)) {window.scrollTo(0,document.body.scrollHeight); Scrolingas(); }
+ } }
+function scrollp(gr,zm) {
+var greitis = parseInt(gr);
+zoom = parseInt(zm);
+topas = Math.round(zm/250);
+if(topas==0) topas = 1;
+speedas = Math.round((210 - greitis)/2);
+}
+
+         </script>
